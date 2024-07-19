@@ -6,7 +6,7 @@ class Console;
 class SaveStateManager
 {
 private:
-	static constexpr uint32_t MaxIndex = 10;
+	static constexpr uint32_t MaxIndex = 20;
 
 	atomic<uint32_t> _lastIndex;
 	shared_ptr<Console> _console;
